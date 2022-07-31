@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0b5d61a0.css",
+    "main.js": "/static/js/main.cb938b76.js",
+    "static/media/header.jpg": "/static/media/header.61101f5c71658a9b1b0d.jpg",
+    "static/media/lord-of-ring.jpg": "/static/media/lord-of-ring.253cb1899d490ab8f89d.jpg",
+    "static/media/me.jpg": "/static/media/me.2a17782f4c83ad3d824a.jpg",
+    "static/media/WAITIEE-Wireless-Charger.jpg": "/static/media/WAITIEE-Wireless-Charger.4c3eb475c268164e4ad0.jpg",
+    "index.html": "/index.html",
+    "main.0b5d61a0.css.map": "/static/css/main.0b5d61a0.css.map",
+    "main.cb938b76.js.map": "/static/js/main.cb938b76.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b5d61a0.css",
+    "static/js/main.cb938b76.js"
+  ]
+}
