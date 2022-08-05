@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import "./SideBar.css"
 import axios from "axios"
-import sidebarimg from "../img/me.jpg"
+import sidebarimg from "../img/hafLogo.jpg"
 import { Link } from 'react-router-dom';
 
 export default function SideBar() {

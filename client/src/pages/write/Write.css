@@ -50,6 +50,7 @@
 .writeSubmit{
     position: absolute;
     top: 20px;
+    cursor: pointer;
     right: 250px;
     color: #ceb92c;
     padding: 10px;

@@ -1,62 +1,102 @@
 .singlePost {
     flex: 9;
-}
-
-.singlePostWrapper {
+  }
+  
+  .singlePostWrapper {
     padding: 20px;
     padding-right: 0;
-}
-
-.singlePostImg {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .singlePostImg {
     width: 100%;
     height: 300px;
-    border: 10px;
-    object-fit: contain;
-}
-
-.singlePostTitle {
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .singlePostTitle {
     text-align: center;
     margin: 10px;
-    font-family: 'Lora', serif;
+    font-family: "Lora", serif;
     font-size: 28px;
-}
-
-.singlePostEdit {
+  }
+  
+  .singlePostTitleInput {
+    margin: 10px;
+    font-family: "Lora", serif;
+    font-size: 28px;
+    text-align: center;
+    border: none;
+    color: gray;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  .singlePostTitleInput:focus {
+    outline: none;
+  }
+  
+  .singlePostEdit {
     float: right;
-    font-size: 18px;
-}
-
-.singlePostIcon {
-    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .singlePostIcon {
+    margin-left: 10px;
     cursor: pointer;
-}
-
-.singlePostIcon:first-child {
+  }
+  
+  .singlePostIcon:first-child {
     color: #ceb92c;
-}
-
-.singlePostIcon:last-child {
+  }
+  
+  .singlePostIcon:last-child {
     color: #373e98;
-}
-
-.singlePostInfo {
+  }
+  
+  .singlePostInfo {
     margin-bottom: 20px;
     display: flex;
-    color: #373e98;
-    font-size: 18px;
     justify-content: space-between;
-    font-family: 'Varela Round', sans-serif;
-}
-
-.singlePostDesc {
+    font-size: 16px;
+    font-family: "Varela Round", sans-serif;
+    color: #373e98;
+  }
+  
+  .singlePostDesc {
     color: #3F3F3F;
     font-size: 18px;
-    line-height: 20px;
-    text-align: justify;
-}
-
-.singlePostDesc::first-letter {
-    margin-left: 50px;
+    line-height: 25px;
+  }
+  
+  .singlePostDesc::first-letter {
+    margin-left: 20px;
     font-size: 30px;
     font-weight: 600;
-}
+  }
+  
+  .singlePostDescInput {
+    border: none;
+    color: #666;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  
+  .singlePostDescInput:focus {
+    outline: none;
+  }
+  .singlePostButton  {
+    width: 100px;
+    align-self: flex-end;
+    margin-top: 20px;
+    cursor: pointer;
+    right: 250px;
+    color: #ceb92c;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #3F3F3F;
+  }
+  
